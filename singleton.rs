@@ -1,5 +1,5 @@
-// Singleton pattern
-
+// Copyright 2024 GOTHAM Inc. All Rights Reserved.
+// Author: easytojoin@163.com (jok)
 static mut SINGLETON: Option<Singleton> = Option::None;
 static ONCE: std::sync::Once = std::sync::Once::new();
 struct Singleton {
