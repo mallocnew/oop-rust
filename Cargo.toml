@@ -7,4 +7,4 @@ edition = "2021"
 
 [[bin]]
 name = "singleton"
-path = "singleton.rs"
+path = "singleton/main.rs"
